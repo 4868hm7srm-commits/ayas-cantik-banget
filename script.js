@@ -1,7 +1,7 @@
 // PASSWORD
 function cekPassword() {
     const password = document.getElementById("password").value;
-    if (password === "020225") { // 020225
+    if (password === "020225") {
         window.location.href = "halo.html";
     } else {
         alert("Password salah 😢");
@@ -31,4 +31,5 @@ function efekKetik(teks, elemenId, kecepatan = 60) {
     }
     ketik();
 }
+
 
