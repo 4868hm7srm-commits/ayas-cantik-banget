@@ -1,6 +1,6 @@
 // PASSWORD
 function cekPassword() {
-    const password = document.getElementById("020225").value;
+    const password = document.getElementById("password").value.trim();
     if (password === "020225") {
         window.location.href = "halo.html";
     } else {
@@ -17,7 +17,7 @@ function mulaiMusik() {
 }
 
 // EFEK MENGETIK
-function efekKetik(teks, elemenId, kecepatan = 60) {
+function efekKetik(teks, elemenId, kecepatan = 45) {
     let i = 0;
     const elemen = document.getElementById(elemenId);
     elemen.innerHTML = "";
@@ -31,6 +31,3 @@ function efekKetik(teks, elemenId, kecepatan = 60) {
     }
     ketik();
 }
-
-
-
