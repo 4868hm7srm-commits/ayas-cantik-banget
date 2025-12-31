@@ -1,4 +1,4 @@
-// PASSWORD
+// CEK PASSWORD
 function cekPassword() {
     const password = document.getElementById("password").value.trim();
     if (password === "020225") {
