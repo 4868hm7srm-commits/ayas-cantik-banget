@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* BOX UTAMA */
+.container {
+    background: rgba(255,255,255,0.92);
+    padding: 40px 30px;
+    border-radius: 22px;
+    width: 90%;
+    max-width: 520px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* JUDUL */
+h1 {
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+/* TEKS */
+p {
+    font-size: 17px;
+    line-height: 1.8;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* INPUT PASSWORD */
+input {
+    padding: 12px 15px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    width: 80%;
+    font-size: 15px;
+    text-align: center;
+    outline: none;
+}
+
+/* TOMBOL */
+button {
+    margin-top: 25px;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 30px;
+    background: #ff5e78;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff3b5c;
+    transform: scale(1.05);
+}
+
+/* FOTO */
+img {
+    max-width: 100%;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
